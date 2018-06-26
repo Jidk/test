@@ -6,7 +6,7 @@ def getContent(_rul):
 	soup = BeautifulSoup(result.text, 'html.parser')
 
 	main = soup.find(id="main-container")
-	content = main.text.split("¡ù °lĞÅÕ¾:")[0]
+	content = main.text.split("â€» ç™¼ä¿¡ç«™:")[0]
 	print(content)
 
 url = 'https://www.ptt.cc'
